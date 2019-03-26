@@ -21,3 +21,8 @@ func PrintInYellow(msg string) {
 func PrintInBlue(msg string) {
 	color.Blue(msg)
 }
+
+// PrintInCyan prints the given message in cyan
+func PrintInCyan(msg string) {
+	color.Cyan(msg)
+}
